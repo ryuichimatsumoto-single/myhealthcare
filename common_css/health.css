@@ -1,0 +1,17 @@
+.right
+{
+    text-align:right;   
+}
+
+.form_text
+{
+    min-width:180px;
+    min-height: 25px;
+}
+
+.submit_button
+{
+    width: 150px;
+    height:auto;
+}
+

@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020/07/02, 22:36:58
+    Author     : matsumoto
+*/
+
+body
+{
+    position:static;
+}
+
+/*ヘッダーの設定*/
+.container
+{
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:42px;
+    background-color: #ffffff;
+    z-index: 2;
+    border-bottom: dotted 1px #333333;
+}
+
+.row
+{
+    margin-top: 40px;
+}
+
+/*表の表示*/
+tr.graph:nth-child(2n) 
+{
+    background: #EEEEEE;
+}
+
+/*グラフ表示色*/
+.circle1 
+{
+   background-color: #cccccc;
+   color: #cccccc;
+   margin-right:3px;
+   display:inline-block;
+   width:10px;
+   height:10px;
+   border-radius: 5px;
+}
+
+.circle2 
+{
+   background-color: #999999;
+   color: #999999;
+   margin-right:3px;
+   display:inline-block;
+   width:10px;
+   height:10px;
+   border-radius: 5px;
+   
+}
+
+/*右表示*/
+.right
+{
+    text-align:right;   
+}
+
+/*携帯表示時の対応*/
+@media screen and (max-width:480px){
+    .mobile_disable
+    {
+        display:none;    
+    }
+}

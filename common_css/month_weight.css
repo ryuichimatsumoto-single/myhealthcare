@@ -1,0 +1,42 @@
+.submit_button
+{
+    width:45%;
+    height:auto;
+}
+
+.left td
+{
+    text-align:left;   
+}
+
+/*体重のグラフ*/
+#jqPlot-weight
+{
+    height: 200px; 
+    width: 100%;
+}
+
+/*血圧のグラフ*/
+#jqPlot-blood
+{
+    height: 200px; 
+    width: 100%;
+}
+
+/*脈拍のグラフ*/
+#jqPlot-pulse
+{
+    height: 200px; 
+    width: 100%;
+}
+
+/*480px未満*/
+@media screen and (max-width:480px)
+{
+    .submit_button
+    {
+        width:84%;
+        height:auto;
+    }    
+}
+
