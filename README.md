@@ -22,10 +22,10 @@ test/test
 
 # プログラムについて
 ## 使用ミドルウェア
-Linux:CentOS
-Apache2.4
-MySQL5.7
-PHP7.2
+Linux:CentOS. 
+Apache2.4. 
+MySQL5.7  
+PHP7.2. 
 
 ## 説明
 本プログラムは、 主に画面とデータベースとのデータのやり取り(CRUD)のみを実装したものです。  
