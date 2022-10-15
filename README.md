@@ -31,7 +31,7 @@ ConoHa VPS(1コア/30GB/メモリ512MB).
 ## 使用ミドルウェア
 Linux:CentOS8.   
 Apache2.4.37.    
-MariaDB 10.3.28. 
+MariaDB 10.3.28.  
 PHP7.4.22. 
 
 ## 説明
