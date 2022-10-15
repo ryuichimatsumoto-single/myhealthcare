@@ -47,7 +47,7 @@ DB(CRUD) : myhealthcare/common_db/sql_queries.php など。
 
 ## セキュリテイ
 1.ログイン時のパスワードは平文となっており、暗号化されておりません。  
-mywork01/login.php :: 66行目以降。
+myhealthcare/login.php  :: 43行目以降。
 
 2.空欄時の処理やバリデーションは実装していません。  
 
