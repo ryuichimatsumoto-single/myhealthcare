@@ -25,8 +25,8 @@ test/test
 
 # プログラムについて
 ## 使用ミドルウェア
-Linux:CentOS. 
-Apache2.4. 
+Linux:CentOS.   
+Apache2.4.   
 MySQL5.7  
 PHP7.2. 
 
