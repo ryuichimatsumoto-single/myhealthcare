@@ -4,9 +4,9 @@
 	{
                 /* MySQL接続情報 */
                 /*練習/本番の切り替えが無いのでここに定義*/
-                public static $url = "localhost";
-                public static $user = "root";
-                public static $pass = "123ryu1w";
+                public static $url = "*****";
+                public static $user = "*****";
+                public static $pass = "*****";
                 public static $db = "healthcare";
                 public static $tableName = "trn_health";
             
